@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+.content_main{
+    background-color:#070216;
+}
 
   ul {
     display: block;
