@@ -8,19 +8,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <style>
+        .heroImg{
+            background-image: url('../Images/Galaxy_image.jpg');
+        }
+
+        .video{
+            top: 0;
+            left: 0;
+            min-width: auto;
+            min-height: max-content;
+            position:fixed;
+            z-index: -1;
+        }
+    </style>
 </head>
-<body class=" text-white" style="background-color:#060117">
+
+<body class=" text-white" style="background-color:#070216">
     <div>
+               
         
-        
-        <div class="min-h-screen flex justify-center items-center bg-HeroImage bg-fixed bg-no-repeat bg-cover bg-center">
-            <h1 class="font-bold text-6xl mx-auto m-">Welcome to Encode!</h1>
+        <div class="min-h-screen flex justify-center items-center bg-fixed bg-no-repeat bg-cover bg-center">
+            <div class="video min-h-screen ">
+                <video autoplay muted loop><source src="../Images/glitch.mp4" type="video/mp4"></video>
+            </div>
+            
+            <h1 class="font-bold text-6xl mx-auto px-8">Welcome to Encode!</h1>
         </div>
-        
+
+        <!--<div class="min-h-screen flex justify-center items-center heroImg bg-fixed bg-no-repeat bg-cover bg-center">
+            <h1 class="font-bold text-6xl mx-auto px-8">Welcome to Encode!</h1>
+        </div> --> 
+
         <div class="container mx-auto px-8">
             
-    
-            <!-- flag 1: flag{th1s_y0ur_f!rS7_f1ag} -->
     
             <section>
                 <p>This lab is very important for you to pass other because every single note or instruction written is essential if you want to get 1 position</p>
@@ -32,7 +54,7 @@
                     <p class="answer">Capture the Flag (CTF) in computer security is an exercise in which "flags" are secretly hidden in purposefully-vulnerable programs or websites. Competitors steal flags either from other competitors (attack/defense-style CTFs) or from the organizers (jeopardy-style challenges). Don't worry here you don't need to hack any application these CTF are very easy and made to give you a glimpse of actual CTF. These Labs are made focusing the knowledge of our participants.</p>
                 </div>
                 <div class="content">
-                    <p class="question">How to play ?</p>
+                    <p class="question">How to play?</p>
                     <p class="answer">You are given 5 Labs to solve. Hints are available in every lab, read properly whatever hints are given. Difficulty will increase as you go on solving labs. Google along with other online sites will help you to capture the flag. your googling skills matter during the competition. First two labs will be very easy and you will be guided in these 2 labs but next 3 labs you have to do yourself with hints available. </p>
                 </div>
     
@@ -47,7 +69,7 @@
     
     
                 <div class="content">
-                    <p class="question">Are you Ready for Hacking ?</p>
+                    <p class="question">Are you Ready for Hacking?</p>
                     <p class="answer">I hope you are ready now, I am really excited. Let's Begin</p>
                 </div>
     
@@ -68,7 +90,7 @@
                 </div>
     
                 <div class="content">
-                    <p class="question">What is cryptography ?</p>
+                    <p class="question">What is cryptography?</p>
                     <p class="answer"><a href="">Cryptography</a> is associated with the process of converting ordinary plain text into unintelligible text and vice-versa. It is a method of storing and transmitting data in a particular form so that only those for whom it is intended can read and process it. Cryptography not only protects data from theft or alteration, but can also be used for user authentication. </p>
     
                     <p class="answer">you are able to read this text, right ?</p>
@@ -86,7 +108,7 @@
                 </div>
     
                 <div class="content">
-                    <p class="question">Want second last flag ?</p>
+                    <p class="question">Want second last flag?</p>
                     <p class="answer"><a href="">This</a> File has what you want</p>
                     <p>Again base64 :)</p>
                 </div>

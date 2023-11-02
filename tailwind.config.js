@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'HeroImage' : 'url("https://getwallpapers.com/wallpaper/full/7/b/c/271228.jpg")',
+        // 'HeroImage' : 'url("https://getwallpapers.com/wallpaper/full/7/b/c/271228.jpg")',
+        'HeroImage' : 'url("Images/Galaxy_image.jpg")',
         'BgImg2' : 'url("https://getwallpapers.com/wallpaper/full/8/1/7/271635.jpg")',
         'BgImg' : 'url("https://getwallpapers.com/wallpaper/full/1/6/7/271431.jpg")',
       },
